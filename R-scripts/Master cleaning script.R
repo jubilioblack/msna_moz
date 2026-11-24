@@ -103,7 +103,7 @@ source("R-scripts/Source scripts/7.Progress_tracker_MOZ.R")
 # (sheet other_responses) into inputs/feedback/ (any sub-folder structure). Steps 0-1 must have been
 # run in the same session (raw_data_list). Do not also put old 6.Specify_other logs there.
 
-# path_feedback <- "inputs/feedback"
-# source("R-scripts/Source scripts/8.Load_feedback_and_create_clean_data_MOZ.R")
-# source("R-scripts/Source scripts/computing_weights.R")      # needs inputs/REACH_MOZ_MSNA2026_population_frame.xlsx
-# source("R-scripts/Source scripts/9.Finalise_and_export_logbook_MOZ.R")
+path_feedback <- "inputs/feedback"
+source("R-scripts/Source scripts/8.Load_feedback_and_create_clean_data_MOZ.R")
+source("R-scripts/Source scripts/computing_weights.R")      # needs inputs/REACH_MOZ_MSNA2026_population_frame.xlsx
+source("R-scripts/Source scripts/9.Finalise_and_export_logbook_MOZ.R")
