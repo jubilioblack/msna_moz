@@ -1,0 +1,33 @@
+# Dados locais, resultados e arquivos de execução
+/inputs/
+/outputs/
+/archive/
+/docs_test_run/
+
+# Dados e ficheiros de trabalho fora dessas pastas
+*.csv
+*.tsv
+*.xls
+*.xlsx
+*.xlsm
+*.sav
+*.dta
+*.parquet
+*.rds
+*.RData
+*.rdata
+*.zip
+*.7z
+/docs/**/*.docx
+
+# Estado local do R e RStudio
+.Rhistory
+.Rproj.user/
+
+# Credenciais locais
+.Renviron
+.env
+.env.*
+!.env.example
+*.pem
+*.key
